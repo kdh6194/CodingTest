@@ -1,7 +1,3 @@
-
-import com.sun.xml.internal.bind.v2.runtime.unmarshaller.XsiNilLoader;
-
-import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Scanner;
 
@@ -37,10 +33,6 @@ public class problem1 {
             System.out.printf(Arrays.toString(num) + " ");
             System.out.println("#"+t+" "+sum);
         }
-        //---------- gpt가 짠 코드
-
-
-
 
 
     }
