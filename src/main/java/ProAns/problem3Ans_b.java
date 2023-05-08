@@ -1,4 +1,4 @@
-package Ans;
+package ProAns;
 
 import java.util.Scanner;
 
