@@ -4,21 +4,31 @@ import java.util.Scanner;
 
 public class grm33Ans {
     public static void main(String[] args) {
-        //주어진 정수를 각 자릿수별로 더하는 방법
-        Scanner sc = new Scanner(System.in);
+        //입력된 값에서 중간 값을 출력하는 방법
+        Scanner scanner = new Scanner(System.in);
 
-        // 정수 입력받기
-        System.out.print("숫자를 입력하세요: ");
-        int num = sc.nextInt();
+        System.out.print("숫자 개수를 입력하세요: ");
+        int count = scanner.nextInt();
 
-        // 각 자릿수별로 더하기
-        int sum = 0;
-        while (num > 0) {
-            sum += num % 10;  // 일의 자리 수 더하기
-            num /= 10;  // 일의 자리 수 제거
+        int[] numbers = new int[count];
+
+        System.out.println("숫자를 입력하세요:");
+
+        for (int i = 0; i < count; i++) {
+            numbers[i] = scanner.nextInt();
         }
 
-        // 결과 출력
-        System.out.println("각 자릿수의 합: " + sum);
+        int middleIndex = count / 2;
+        int middleValue;
+
+        if (count % 2 == 0) {
+            // 개수가 짝수인 경우
+            middleValue = numbers[middleIndex - 1];
+        } else {
+            // 개수가 홀수인 경우
+            middleValue = numbers[middleIndex];
+        }
+
+        System.out.println("중간 값: " + middleValue);
     }
 }
