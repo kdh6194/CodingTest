@@ -1,6 +1,9 @@
 package GrmAns;
 import java.util.Scanner;
 public class grm31Ans {
+    // 누적합 출력, 함수형식
+    // 입력된 두 수 까지의 합을 구하시오
+
     //두 수를 받아서 두 수 사이에 값을 더해서 반환할 함수
     public static int function(int num_1, int num_2) {
         //total이란 변수를 만들고 반복문이 회전할 때마다 숫자를 계속 더한 후에 total값을 리턴해준다.
