@@ -6,14 +6,14 @@ public class grm30Ans {
     public static int function(int number) {
 
         // 팩토리얼한 수를 저장할 변수
-        int total = number;
+        int tot = number;
 
         for (int i = 1; i < number; i++) {
 
-            total *= i;
+            tot *= i;
         }
 
-        return total;
+        return tot;
 
     }
     public static void main(String[] args) {
@@ -24,11 +24,9 @@ public class grm30Ans {
 
         System.out.println("숫자를 입력하세요.");
 
-        int number;
-
         Scanner scan = new Scanner(System.in);
 
-        number = scan.nextInt();
+        int number = scan.nextInt();
 
         // 위에서 팩토리얼을 계산한 수를 저장할 변수.
         int total = function(number);

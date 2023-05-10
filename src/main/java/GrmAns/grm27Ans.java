@@ -1,14 +1,17 @@
 package GrmAns;
 
+import java.util.Scanner;
+
 public class grm27Ans {
     public static void main(String[] args) {
         //진수변환
 
         //변환시킬 변수와 몇진수로 변환시켜야될지 판단하는 변수를 받아야한다.
-
-        int number = 19;
-
-        int n = 2;
+        Scanner sc = new Scanner(System.in);
+        System.out.println("입력할 변수");
+        int number = sc.nextInt();
+        System.out.println("몇 진수로 변환");
+        int n = sc.nextInt();
 
 
         //배열 1칸 1칸당 숫자를 하나씩 저장해놓기 위해서 배열을 선언함
@@ -19,11 +22,9 @@ public class grm27Ans {
         int i = 0;
         while (number > 0) {
 
-
             //n으로 나눈 나머지를 tmp변수에 저장함
 
             int tmp = number % n;
-
 
             //tmp에 들어간 변수가 10보다 크면 아스키코드표로 인해서 'A'+ 알파가 되서
 

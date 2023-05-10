@@ -3,14 +3,13 @@ package GrmAns;
 import java.util.Scanner;
 public class grm29Ans {
     public static void main(String[] args) {
+        // 입력된 숫자까지 +-를 차례대로 반복하시오
         //숫자 하나를 입력받고, 그 숫자만큼 +와 -를 반복해서 출력하는 구문
         System.out.println("숫자를 입력하세요.");
 
-        int number;
-
         Scanner scan = new Scanner(System.in);
 
-        number = scan.nextInt();
+        int number = scan.nextInt();
 
 
         //반복문을 사용해서 입력한 숫자만큼 출력되게 함

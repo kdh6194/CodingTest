@@ -27,15 +27,11 @@ public class grm31Ans {
 
         System.out.println("두 수를 입력하세요.");
 
-        int num_1;
-
-        int num_2;
-
         Scanner scan = new Scanner(System.in);
 
-        num_1 = scan.nextInt();
+        int num_1 = scan.nextInt();
 
-        num_2 = scan.nextInt();
+        int num_2 = scan.nextInt();
 
         int total = function(num_1,num_2);
 

@@ -12,20 +12,17 @@ public class grm26Ans {
 
         //자리를 바꾸던지 해서 숫자를 뒤집은 다음 대소를 판별하면 될 거 같다.
 
+        // 예제 입력 : 734 893 -> 437 출력
 
         //두개의 숫자를 입력
 
         System.out.println("두가지의 숫자를 입력하세요.");
 
-        int number_1;
-
-        int number_2;
-
         Scanner scan = new Scanner(System.in);
 
-        number_1 = scan.nextInt();
+        int number_1 = scan.nextInt();
 
-        number_2 = scan.nextInt();
+        int number_2 = scan.nextInt();
 
         System.out.printf("입력받은 숫자 : %d %d", number_1, number_2);
 
