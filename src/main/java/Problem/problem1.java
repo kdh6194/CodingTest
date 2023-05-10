@@ -21,6 +21,7 @@ public class problem1 {
 //
 //    }
 // ---------------   내가 참고해서 만든 코드 // 의도와 맞지않은 코드
+        // 입력한 숫자의 합
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
         int[] num = new int[10];

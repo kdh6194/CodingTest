@@ -5,7 +5,7 @@ import java.util.Scanner;
 
 public class problem6 {
     public static void main(String[] args) {
-        // 가장 큰 수 출력
+        // 가장 큰 수 출력 -- 미완
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         ArrayList<Integer> rs = new ArrayList<>();

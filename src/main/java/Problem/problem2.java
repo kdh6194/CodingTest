@@ -5,7 +5,7 @@ import java.util.Scanner;
 public class problem2 {
     public static void main(String args[]) throws Exception
     {
-
+        // 평균 구하기
         Scanner sc = new Scanner(System.in);
         int T=sc.nextInt();
         int tot =0;

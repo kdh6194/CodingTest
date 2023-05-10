@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class problem7 {
     public static void main(String[] args) {
+        // 해당 월일 입력시 요일 출력 -- 수정 필요
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         int x = sc.nextInt();

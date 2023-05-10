@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class problem3Ans_b {
     public static void main(String[] args) {
+        // 숫자 위아래,좌우 뒤집기
         Scanner sc = new Scanner(System.in);
 
         int n = sc.nextInt();

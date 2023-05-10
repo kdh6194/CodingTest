@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class problem15 {
     public static void main(String[] args) {
-        // 이거 뭔가 조금 이상함
+        // 이거 뭔가 조금 이상함 -- 파보나치 수열인듯
         Scanner sc = new Scanner(System.in);
         int T = sc.nextInt();
         int n = 0;

@@ -5,7 +5,7 @@ import java.io.IOException;
 public class problem4Ans {
 
     public static int getNum(int i) {
-
+        // 369게임 함수형식으로 출력
         //3,6,9가 들어갔을때 카운트 해주는 변수
         int j = 0;
 

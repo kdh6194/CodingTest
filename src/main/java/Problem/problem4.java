@@ -7,6 +7,7 @@ import static java.lang.Integer.parseInt;
 
 public class problem4 {
     public static void main(String[] args) {
+        // 구구단
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         ArrayList<Integer> num = new ArrayList<>();
