@@ -4,6 +4,8 @@ import java.util.Scanner;
 
 public class grm26Ans {
     public static void main(String[] args) {
+        // 상수 비교하기
+
         //두개의 숫자를 입력받아서 그 숫자를 뒤집어서 숫자를 비교한 후에 대소를 정해서 출력한다.
 
         //String타입으로 변환시켜서 인덱스 자리를 교환하던지, 10으로 계속 나누어서 나머지를 이용해

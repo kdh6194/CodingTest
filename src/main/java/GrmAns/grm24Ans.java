@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class grm24Ans {
     public static void main(String[] args) {
+        // 평균 과 비율 출력
         // (평균 점수 이사인 학생들 수/총학생)*100
         Scanner sc = new Scanner(System.in);
         System.out.println("학생수를 입력하세요");

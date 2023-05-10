@@ -4,6 +4,11 @@ import java.util.Scanner;
 
 public class grm14Ans {
     public static void main(String[] args) {
+        // 밑에 예시와 같은 형태가 출력되도록하는 코드
+        //   1   2   3
+        //   2   4   6
+        //   3   6   9
+
         //숫자를 입력받는다.
         System.out.println("숫자를 입력하세요.");
 
@@ -16,10 +21,6 @@ public class grm14Ans {
         // 입력한 숫자에 맞는 크기를 가진 배열을 생성함
         int[][] arr = new int[n][n];
 
-
-
-
-
         // 배열안에 값을 넣는 부분
         for (int i = 0; i < n; i++) {
 
@@ -30,7 +31,6 @@ public class grm14Ans {
             }
 
         }
-
 
         //위에서 넣은 값들을 출력해주는 부분.
         for (int i = 0; i < n; i ++) {

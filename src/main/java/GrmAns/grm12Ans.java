@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class grm12Ans {
     public static void main(String[] args) {
-
+        // ㄹ자 배열로 출력하기
         //ㄹ자 배열을 만들기 위해서 숫자 하나를 입력받는다.
 
         System.out.println("숫자를 입력하세요.");

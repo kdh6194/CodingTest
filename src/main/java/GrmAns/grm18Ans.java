@@ -2,6 +2,11 @@ package GrmAns;
 import java.util.Scanner;
 public class grm18Ans {
     public static void main(String[] args) {
+        // 별 출력2
+        //  *
+        // **
+        //***
+
         // 숫자를 입력 받기
 
         System.out.println("숫자를 입력하세요.");

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class problem16 {
     public static void main(String[] args) {
+        // 평균과 비율
         // (평균 점수 이사인 학생들 수/총학생)*100
         Scanner sc = new Scanner(System.in);
         System.out.println("학생수를 입력하세요");

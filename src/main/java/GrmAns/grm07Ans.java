@@ -1,7 +1,8 @@
 package GrmAns;
 
-public class grm7Ans {
+public class grm07Ans {
     public static void main(String[] args) {
+        // 최대 공약수 출력
         int a = 10;
 
         int b = 15;

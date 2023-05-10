@@ -1,10 +1,10 @@
 package GrmAns;
-import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class grm2Ans {
+public class grm02Ans {
     public static void main(String[] args) {
+        // 학생 정보 저장 및 검색
         Student a = new Student("이름11", 1122);
         Student b = new Student("이름22", 3344);
         Student c = new Student("이름33", 2111);

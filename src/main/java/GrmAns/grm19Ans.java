@@ -2,6 +2,7 @@ package GrmAns;
 import java.util.Scanner;
 public class grm19Ans {
     public static void main(String[] args) {System.out.println("숫자를 입력하세요.");
+        // 거듭 제곱 출력
 
         //n은기본 숫자, m은 제곱할 승의 숫자
         int n = 7;

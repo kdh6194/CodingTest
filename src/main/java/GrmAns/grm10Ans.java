@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class grm10Ans {
     public static void main(String[] args) {
+        // 각 자릿수 합 구하기
         //문제 : 입력된 수의 각 자릿수 합을 구하시오.
 
         while(true) {

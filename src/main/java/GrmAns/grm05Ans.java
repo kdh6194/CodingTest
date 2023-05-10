@@ -2,12 +2,10 @@ package GrmAns;
 
 import java.util.Scanner;
 
-public class grm5Ans {
+public class grm05Ans {
     public static void main(String[] args) {
         //10진수를 2진수로 변환하기
-        for(int i = 0; ; i++) {
-            System.out.println();
-            System.out.println();
+        for(;;) {
 
             System.out.println("변환할 10진수를 입력하세요.");
             Scanner scan = new Scanner(System.in);

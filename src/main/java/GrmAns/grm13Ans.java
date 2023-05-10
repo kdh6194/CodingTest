@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class grm13Ans {
     public static void main(String[] args) {
-
+        // 지그재그형태로 출력하기
+        // 달팽이랑 다이아몬드는 ProAns에서 3,3-a,3-b전부 확인
         System.out.println("숫자를 입력하세요.");
 
         int n;

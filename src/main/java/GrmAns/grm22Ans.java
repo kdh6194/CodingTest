@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class grm22Ans {
     public static void main(String[] args) {
-        // 입력된 수가 팰린드롬인지 판별,
+        // 입력된 수가 팰린드롬인지 판별
         // 팰린드롬이란 ??앞으로 읽던, 뒤에서 부터 읽던 같은 단어
 
         //int 타입은 정수타입이기 때문에 인덱스가 없어서 판별하기 힘드므로 String 타입을 사용한다.

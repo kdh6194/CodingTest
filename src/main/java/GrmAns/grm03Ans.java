@@ -2,7 +2,7 @@ package GrmAns;
 
 import java.util.Scanner;
 
-public class grm3Ans {
+public class grm03Ans {
     public static void main(String[] args) {
         // 파보나치 수열 : 앞에 두수의 합이 세번째 항의 숫자가 된다.
         //0과 1로 주로 시작하며, 뒤에 있던 수가 앞의 수가 되고, 앞의 수와 뒤의 수를 더한 값이 뒤의 수가 된다.

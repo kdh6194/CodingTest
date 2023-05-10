@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class grm28Ans {
     public static void main(String[] args) {
+        // 음계  --> 정확히 어떻게 동작하는지도 잘 모르겠음
 
         //숫자를 받고 그 숫자가 아래의 숫자와 일치하면 각각 출력문을 출력하게 하고,
         //아니라면 mixed를 출력하도록 작성함 String이므로 equal로 비교할 예정

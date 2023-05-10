@@ -4,19 +4,16 @@ import java.util.Scanner;
 
 public class grm16Ans {
     public static void main(String[] args) {
+        // 숫자 갯수 출력
         //입력된 숫자의 갯수를 출력받아야 하므로 숫자를 입력받는다.
 
         System.out.println("숫자를 입력하세요.");
 
-
-        int n;
         Scanner scan = new Scanner(System.in);
-        n = scan.nextInt();
+        int n = scan.nextInt();
 
         System.out.println("입력 : "+n);
-
         System.out.println();
-
 
         int arr[] = new int[10];
 
@@ -33,15 +30,11 @@ public class grm16Ans {
         //    42 -> 2...
 
         while (n > 0) {
-
             arr[n % 10]++;
-
             n /= 10;
         }
 
-
         for (int i = 0 ; i < 10; i++) {
-
             System.out.println(i+":"+arr[i]);
         }
     }

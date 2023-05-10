@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class grm23Ans {
     public static void main(String[] args) {
+        // 문지열 뒤집기
 
         System.out.println("문자열을 입력하세요.");
 

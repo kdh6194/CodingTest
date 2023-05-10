@@ -2,8 +2,9 @@ package GrmAns;
 
 import java.util.Scanner;
 
-public class grm6Ans {
+public class grm06Ans {
     public static void main(String[] args) {
+        // 대소문자 변환
         System.out.println("문자를 입력하세요.");
         Scanner scan = new Scanner(System.in);
         String a = scan.nextLine();

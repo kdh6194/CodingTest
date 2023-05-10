@@ -3,6 +3,7 @@ import java.util.ArrayList;
 import java.util.Scanner;
 public class grm20Ans {
     public static void main(String[] args) {
+        // 369게임 출력
         Scanner sc = new Scanner(System.in);
         int t = sc.nextInt();
         ArrayList<Integer> num = new ArrayList<>();

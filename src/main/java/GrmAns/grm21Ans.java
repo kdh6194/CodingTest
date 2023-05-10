@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class grm21Ans {
     public static void main(String[] args) {
+        // 중복된 수 제거
         // 내가 입력한 값이 들어있으면 true를 리턴하는 arr배열을 생성
         boolean arr[] = new boolean[101];
 

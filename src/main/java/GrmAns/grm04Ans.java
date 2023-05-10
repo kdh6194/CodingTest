@@ -1,6 +1,6 @@
 package GrmAns;
 
-public class grm4Ans {
+public class grm04Ans {
     public static void main(String[] args) {
         int[] arr = { 1, 2, 2, 3, 1, 4, 2, 2, 4, 3, 5, 3, 2 };
         //배열을 하나 더만들어서 위에 있는 배열의 최빈수와 최빈수가 나온 횟수도 같이 저장한다.

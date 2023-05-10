@@ -2,9 +2,10 @@ package GrmAns;
 
 import java.util.Scanner;
 
-public class grm8Ans {
+public class grm08Ans {
     public static void main(String[] args) {
-        for(int j = 0; ; j++) {
+        // 소수 출력
+        for(;;) {
             System.out.println("숫자를 입력하세요.");
 
             Scanner scan = new Scanner(System.in);

@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class grm11Ans {
     public static void main(String[] args) {
+        // n행 n열 사각형 형태로 출력
         System.out.println("숫자를 입력하세요.");
 
         int inputnum;
