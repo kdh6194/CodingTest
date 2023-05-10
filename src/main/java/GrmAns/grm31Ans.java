@@ -6,7 +6,6 @@ public class grm31Ans {
         //total이란 변수를 만들고 반복문이 회전할 때마다 숫자를 계속 더한 후에 total값을 리턴해준다.
         int total = 0;
         for(int i = num_1; i <= num_2; i++) {
-
             total += i;
         }
         return total;

@@ -1,6 +1,7 @@
 package GrmAns;
 
 public class grm32Ans {
+    // 두수를 더한 값이 target과 동일할때 해당 숫자 출력
     static int[] num = {2,7,11,15};
     static int target = 9;
     public static int[] twoSum (int[] num,int target) {
