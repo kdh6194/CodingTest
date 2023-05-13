@@ -8,15 +8,12 @@ public class grm09Ans {
         while (true) {
             System.out.println("숫자를 입력하세요.");
 
-            // 입력받는 수
-            int a;
-
             // total값은 for문을 계속 돌려서 곱해야하기때문에 초기값으로 1을 준다.
             int total = 1;
 
             Scanner scan = new Scanner(System.in);
-
-            a = scan.nextInt();
+            // 입력받는 수
+            int a = scan.nextInt();
 
             // 팩토리얼은 특정한 수를 받으면 1부터 그 숫자까지를 하나씩 곱해서 나오는 수이다.
 
@@ -32,6 +29,7 @@ public class grm09Ans {
             System.out.println("팩토리얼 (!) 정답 : " + a + "! = " + total);
 
             System.out.println();
+            if(a==0)return;
 
         }
     }

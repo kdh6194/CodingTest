@@ -5,11 +5,9 @@ import java.util.Scanner;
 public class grm35Ans {
 
     public static void main(String[] args) {
-
         // 입력 n에 따른 달팽이 모양의 숫자를 출력
 
         System.out.println("숫자를 입력하세요.");
-
 
         Scanner scan = new Scanner(System.in);
 

@@ -4,7 +4,7 @@ import java.time.LocalDate;
 import java.time.format.DateTimeFormatter;
 import java.util.Scanner;
 public class grm38Ans {
-    //해당 월일 입력시 요일 출력
+    //해당 월일 입력시 요일 출력 -- 시간 남으면 하는걸로
         public static void main(String[] args) {
             Scanner scanner = new Scanner(System.in);
 

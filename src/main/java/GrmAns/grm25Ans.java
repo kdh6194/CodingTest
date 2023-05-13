@@ -5,7 +5,8 @@ import java.util.Scanner;
 public class grm25Ans {
     public static void main(String[] args) {
         //N이 주어졌을 때 N사이클의 길이 구하기
-
+        // 예시 : 26을 입력했다면
+        // 2+6=8 //68 -> 6+8=14 //84 -> 8+4=12 //42 -> 4+2=6 // 26
         //N입력
 
         System.out.println("숫자를 입력하세요.");

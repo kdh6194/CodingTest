@@ -36,7 +36,7 @@ public class grm10Ans {
             System.out.println("입력된 수의 각 자릿수의 합은? " +total);
 
             System.out.println();
-
+            if(number == 0 )return;
         }
     }
 }

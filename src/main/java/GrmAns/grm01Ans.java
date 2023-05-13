@@ -7,7 +7,7 @@ public class grm01Ans {
         // 열개씩 끊어서 출력하기
         Scanner sc = new Scanner(System.in);
 
-        char[] arr = sc.nextLine().toCharArray();
+        char[] arr = sc.next().toCharArray();
         for (int i = 1; i <= arr.length; i++) {
             if(i%10!=0){
                 System.out.print(arr[i-1]);

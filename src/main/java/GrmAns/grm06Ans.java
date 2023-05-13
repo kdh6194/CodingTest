@@ -10,11 +10,10 @@ public class grm06Ans {
         String a = scan.nextLine();
         System.out.println("내가 입력한 문자 : "+a);
 
-        char []arr;
 
         //String 타입의 메소드인 CharArray 메소드를 사용해서 char타입으로 변환해서 배열에 넣는다.
         //이렇게 하면 배열의 한 요소당 문자를 넣어서 접근할 수 있게 된다.
-        arr = a.toCharArray();
+        char[] arr = a.toCharArray();
 
         //문자를 하나씩 배열에 넣고, 대문자인지 소문자 인지 확인한 후에 대문자는 소문자로,
         //소문자는 대문자로 변경하면 된다.
@@ -24,9 +23,9 @@ public class grm06Ans {
 
         for (int i = 0; i < arr.length; i++) {
             if(arr[i] <= 90 ) {
-                arr[i] = (char) (arr[i]+32);
+                arr[i] = (char) (arr[i]+32); // 대문자
             }else if(arr[i] >= 97){
-                arr[i] = (char) (arr[i]-32);
+                arr[i] = (char) (arr[i]-32); // 소문자
             }
         }
         System.out.print("대 소문자 변환한 문자 출력 : ");
